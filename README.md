@@ -1,6 +1,6 @@
 # Earls Take Home Assignment
 
-Please download this repo and import all the repo contents into a new repo.
+Please download this repository and import all the contents into a new repository. Ensure that it has "Public" visibility to be shared with us.
 
 Do your best to finish all the steps, but don't worry if you get stuck. Submit the assignment even if it's incomplete and we will go over it during the interview. Do not worry about HTML formatting in the Django app. 
 
