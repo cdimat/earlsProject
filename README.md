@@ -21,7 +21,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-4. Create a view using the function `hacker_news` in `views.py` that is accessed by going to the url [localhost:8080/latest_hacker_news](localhost:8080/latest_hacker_news). This view should query the public dataset `hacker_news` from the project `bigquery-public-data` and print the title, author's name, and date of publication of the latest 5 articles. 
+4. Create a view using the function `hacker_news` in `views.py` that is accessed by going to the url [localhost:8080/latest_hacker_news](localhost:8080/latest_hacker_news). This view should query the public dataset `hacker_news` from the project `bigquery-public-data` and print the title, author's name, and date of publication of the latest 5 articles from the `stories` table. 
    
 5. Create a second view using the function `github` in `views.py` that is accessed by going to the url [localhost:8080/most_commits](localhost:8080/most_commits). You will be querying the `sample_commits` table in the public dataset `github_repos` (`bigquery-public-data.github_repos.sample_commits`). 
 
