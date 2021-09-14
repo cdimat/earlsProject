@@ -8,7 +8,7 @@ Do your best to finish all the steps, but don't worry if you get stuck. Submit t
 
 Please use the skeleton code in `bigquery_sample` (basically just the code from the [Django intro tutorial](https://docs.djangoproject.com/en/3.2/intro/tutorial01/)) to complete the following:
 
-1. Install python3, django, and google-bigquery
+1. Install python3, django, and [google-bigquery](https://googleapis.dev/python/bigquery/latest/index.html)
 ```
 pip install django
 pip install google-cloud-bigquery
