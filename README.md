@@ -4,6 +4,7 @@ Please download this repository and import all the contents into a new repositor
 
 Do your best to finish all the steps, but don't worry if you get stuck. The expected completion time is 1-2 hours. Submit the assignment even if it's incomplete and we will go over it during the interview. Do not worry about HTML formatting in the Django app. 
 
+
 ## Part 1: Django App
 
 Please use the skeleton code in `bigquery_sample` (basically just the code from the [Django intro tutorial](https://docs.djangoproject.com/en/3.2/intro/tutorial01/)) to complete the following:
