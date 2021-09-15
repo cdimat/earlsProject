@@ -2,7 +2,7 @@
 
 Please download this repository and import all the contents into a new repository. Ensure that it has "Public" visibility to be shared with us.
 
-Do your best to finish all the steps, but don't worry if you get stuck. Submit the assignment even if it's incomplete and we will go over it during the interview. Do not worry about HTML formatting in the Django app. 
+Do your best to finish all the steps, but don't worry if you get stuck. The expected completion time is 1-2 hours. Submit the assignment even if it's incomplete and we will go over it during the interview. Do not worry about HTML formatting in the Django app. 
 
 ## Part 1: Django App
 
