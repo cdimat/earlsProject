@@ -15,10 +15,10 @@ def index(request):
 
 def hacker_news(request):
 
-    sql = """select title, author, time_ts as Date
-    from bigquery-public-data.hacker_news.stories
-    order by time_ts desc 
-    limit 5;"""
+    sql = """SELECT title, author, time_ts as Date
+    FROM bigquery-public-data.hacker_news.stories
+    ORDER BY time_ts DESC 
+    LIMIT 5;"""
 
     query = client.query(sql)
     results = query.result()
@@ -30,11 +30,11 @@ def hacker_news(request):
 
 def github(request):
 
-    sql = """select committer.name, count(commit) as Commits
-from bigquery-public-data.github_repos.sample_commits
-where committer.date between "2016-01-01" and "2016-12-31"
-group by committer.name
-order by 2 desc;"""
+    sql = """SELECT committer.name, count(commit) as Commits
+    FROM bigquery-public-data.github_repos.sample_commits
+    WHERE committer.date between "2016-01-01" AND "2016-12-31"
+    GROUP BY committer.name
+    ORDER BY 2 desc;"""
 
     query = client.query(sql)
     results = query.result()
